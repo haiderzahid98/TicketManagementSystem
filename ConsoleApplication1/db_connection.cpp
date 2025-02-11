@@ -10,9 +10,9 @@
 //Function to connect to the PostgreSQL Database
 
 pqxx::connection connectToDatabase() {
-	//std::string connectionString = "host=localhost port=5432 dbname=air_ticket_db user=postgres password=Allahone7861";
+	//std::string connectionString = "host=localhost port=5432 dbname=air_ticket_db user=postgres password=xxx";
 	try {
-		std::string connectionString = "host=localhost port=5432 dbname=air_ticket_db user=postgres password=Allahone7861";
+		std::string connectionString = "host=localhost port=5432 dbname=air_ticket_db user=postgres password=xxx";
 		pqxx::connection connection(connectionString);
 
 		if (connection.is_open()) {
