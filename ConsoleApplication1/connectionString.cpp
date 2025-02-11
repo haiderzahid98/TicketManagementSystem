@@ -7,7 +7,7 @@
 
 int main()
 {
-    std::string connectionString = "host=localhost port=5432 dbname=air_ticket_db user=postgres password =Allahone7861";
+    std::string connectionString = "host=localhost port=5432 dbname=air_ticket_db user=postgres password =xxx";
 
     try
     {
